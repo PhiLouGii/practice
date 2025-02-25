@@ -85,11 +85,11 @@ Contributions are welcome! If you find a bug or want to add a feature, please op
 5. Open a pull request.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](www.mitlicense.com). 
 
 ## Acknowledgements
 - Flutter: For providing an amazing framework to build beautiful apps.
-- Vector Art: The images used in this project are from ![Freekpik](www.freepik.com)
+- Vector Art: The images used in this project are from [Freekpik](www.freepik.com)
 
 ## Contact 
 If you have any questions or feedback, feel free to reach out: 
