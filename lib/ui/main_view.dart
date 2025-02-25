@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:login_page_1/ui/screens/login_screen.dart';
-import 'package:login_page_1/ui/screens/sign_up_screen.dart';
-import 'package:login_page_1/ui/screens/verify_screen.dart';
+import 'package:practice/ui/screens/login_screen.dart';
+import 'package:practice/ui/screens/sign_up_screen.dart';
+import 'package:practice/ui/screens/verify_screen.dart';
 
 class MainView extends StatefulWidget {
   const MainView({super.key});
@@ -26,7 +26,7 @@ class _MainViewState extends State<MainView> {
               controller: controller,
             );
           } else if (index == 1) {
-            return SingUpScreen(
+            return SignUpScreen(
               controller: controller,
             );
           } else {

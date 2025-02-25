@@ -1,7 +1,6 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:login_page_1/ui/main_view.dart';
 import 'package:practice/ui/main_view.dart';
 
 void main() {
