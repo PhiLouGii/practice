@@ -1,13 +1,8 @@
-import 'package:device_preview/device_preview.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:practice/ui/main_view.dart';
+import 'package:practice/ui/main_view.dart'; // Import your MainView
 
 void main() {
-  runApp(DevicePreview(
-    enabled: !kReleaseMode,
-    builder: (context) => const MyApp(),
-  ));
+  runApp(const MyApp()); // Run the app without DevicePreview
 }
 
 class MyApp extends StatelessWidget {
@@ -16,12 +11,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      locale: DevicePreview.locale(context),
-      builder: DevicePreview.appBuilder,
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
-      home: const MainView(),
+      debugShowCheckedModeBanner: false, // Remove the debug banner
+      theme: ThemeData.light(), // Light theme
+      darkTheme: ThemeData.dark(), // Dark theme
+      home: const MainView(), // Set MainView as the home screen
     );
   }
 }
