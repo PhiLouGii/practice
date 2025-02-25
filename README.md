@@ -93,5 +93,5 @@ This project is licensed under the MIT License.
 
 ## Contact 
 If you have any questions or feedback, feel free to reach out: 
-- ![Philippa Giibwa](pgiibwa04@gmail.com)
-- ![PhiLouGii](www.philougii@github.com)
+- [Philippa Giibwa](pgiibwa04@gmail.com)
+- [PhiLouGii](www.philougii@github.com)
